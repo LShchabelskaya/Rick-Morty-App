@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <form class="selector" id="sex">
+        <div class="selecotr-item">
+          <input
+            type="radio"
+            id="male"
+            name="gender"
+            class="selector-item_radio"
+            value="male"
+          />
+          <label for="male" class="selector-item_label">Male</label>
+        </div>
+        <div class="selecotr-item">
+          <input
+            type="radio"
+            id="female"
+            name="gender"
+            class="selector-item_radio"
+            value="female"
+          />
+          <label for="female" class="selector-item_label">Female</label>
+        </div>
+      </form>
+      <form class="selector" id="live">
+        <div class="selecotr-item">
+          <input
+            type="radio"
+            id="alive"
+            name="status"
+            class="selector-item_radio"
+            value="alive"
+          />
+          <label for="alive" class="selector-item_label">Alive</label>
+        </div>
+        <div class="selecotr-item">
+          <input
+            type="radio"
+            id="dead"
+            name="status"
+            class="selector-item_radio"
+            value="dead"
+          />
+          <label for="dead" class="selector-item_label">Dead</label>
+        </div>
+      </form>
+    </div>
+    <div class="container"></div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
